@@ -56,6 +56,7 @@ Partial Definition Override ──────────→ Quarterly Override
 | [R-1 Final Status](squad-lead/R-1-final-status.md) | Day before sprint | Exact loadable capacity, final call | [Sprint Tracker](vpoe/sprint-tracker.md) → [Cross-Squad Summary](vpoe/R-1-cross-squad-summary.md) |
 | [Partial Definition Override](squad-lead/partial-definition-override.md) | As needed | When leadership pushes to start without full DoR | [Quarterly Override Review](vpoe/quarterly-override-review.md) |
 | [Starved Sprint Scorecard Entry](squad-lead/starved-sprint-scorecard-entry.md) | Sprint close | Document the gap when a sprint ran starved | [Starved Sprint Log](vpoe/starved-sprint-log.md) |
+| [Hill Street Prep](squad-lead/hill-street-prep.md) | Weekly (before Hill Street call) | Pipeline status, top risk, cross-squad flags, help needed | [Sprint Tracker](vpoe/sprint-tracker.md) |
 
 ### VPoE (`vpoe/`)
 
@@ -139,3 +140,4 @@ These templates implement the processes defined in the [SDLC Playbook — Measur
 - [Starved Sprint Protocol](https://rzsoftware.github.io/sdlc/metrics/#starved-sprint-protocol)
 - [Partial Definition Override](https://rzsoftware.github.io/sdlc/metrics/#partial-definition-override)
 - [Roles & Sprint-Cycle Expectations](https://rzsoftware.github.io/sdlc/organization/#roles-expectations)
+- [Hill Street — Weekly Leadership Sync](https://rzsoftware.github.io/sdlc/organization/#hill-street)
