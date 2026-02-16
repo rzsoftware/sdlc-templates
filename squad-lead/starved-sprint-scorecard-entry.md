@@ -5,6 +5,7 @@
 > **To:** VPoE
 > **Channel:** Email + copy into Sprint Scorecard
 > **Time to fill out:** ~5 minutes
+> **Feeds into:** [Starved Sprint Log](../vpoe/starved-sprint-log.md) → [Two-Sprint Escalation](../vpoe/two-sprint-escalation.md) (if consecutive)
 
 ---
 

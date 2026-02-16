@@ -6,6 +6,7 @@
 > **cc:** CTO, affected Squad Lead
 > **Channel:** Email (paper trail required)
 > **Time to fill out:** ~15 minutes
+> **Fed by:** [Starved Sprint Log](starved-sprint-log.md) + Squad Lead [Scorecard Entries](../squad-lead/starved-sprint-scorecard-entry.md)
 
 ---
 

@@ -3,6 +3,8 @@
 > **What this is:** One document per sprint. Open it at R-4, check things off as they arrive, and by R-1 you know exactly where every squad stands. If a box is unchecked at the milestone deadline, that's your signal to follow up.
 >
 > **How to use it:** Copy this template into Confluence or a shared doc at the start of every sprint cycle. Bookmark it. Check it daily during refinement week (R-4 through R-1). It takes 2 minutes.
+> **Fed by:** Squad Lead [R-4](../squad-lead/R-4-pipeline-status.md), [R-3](../squad-lead/R-3-readiness-checkpoint.md), [R-2](../squad-lead/R-2-pipeline-warning.md), [R-1](../squad-lead/R-1-final-status.md), [Scorecard Entry](../squad-lead/starved-sprint-scorecard-entry.md)
+> **Feeds into:** [Cross-Squad Summary](R-1-cross-squad-summary.md) | [Rolling Dashboard](rolling-dashboard.md) | [Starved Sprint Log](starved-sprint-log.md)
 
 ---
 

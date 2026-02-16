@@ -3,6 +3,7 @@
 > **What this is:** A living document that tracks squad health across sprints. Update it at every sprint close. This is the document you bring to Monthly Metrics Reviews and Quarterly Squad Health sessions. It turns individual sprint data points into trends.
 >
 > **How to use it:** One row per squad per sprint. After each sprint close, add a row from the Sprint Scorecard data. The patterns emerge after 3+ sprints.
+> **Fed by:** [Sprint Tracker](sprint-tracker.md) (per-sprint data) | [Starved Sprint Log](starved-sprint-log.md) | [Quarterly Override Review](quarterly-override-review.md)
 
 ---
 

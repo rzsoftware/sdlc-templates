@@ -3,6 +3,8 @@
 > **Owner:** VPoE
 > **Updated:** After every starved sprint
 > **Purpose:** Running record of every sprint that ran under Starved Sprint Protocol. This is the primary data source for escalations and quarterly reviews.
+> **Fed by:** [Starved Sprint Scorecard Entry](../squad-lead/starved-sprint-scorecard-entry.md)
+> **Feeds into:** [Two-Sprint Escalation](two-sprint-escalation.md) | [Rolling Dashboard](rolling-dashboard.md)
 
 ---
 

@@ -6,6 +6,8 @@
 > **cc:** All Squad Leads
 > **Channel:** Email (paper trail)
 > **Time to fill out:** ~10 minutes (compile from Squad Lead R-1 reports)
+> **Fed by:** [Sprint Tracker](sprint-tracker.md) + Squad Lead [R-1 Final Status](../squad-lead/R-1-final-status.md) reports
+> **Feeds into:** [Rolling Dashboard](rolling-dashboard.md)
 
 ---
 

@@ -6,6 +6,7 @@
 > **cc:** VPoE
 > **Channel:** Email (paper trail)
 > **Time to fill out:** ~5 minutes
+> **Previous:** [R-2 Pipeline Warning](R-2-pipeline-warning.md) | **Feeds into:** [Sprint Tracker](../vpoe/sprint-tracker.md) (R-1 section) → [Cross-Squad Summary](../vpoe/R-1-cross-squad-summary.md)
 
 ---
 

@@ -6,6 +6,7 @@
 > **cc:** VPoE
 > **Channel:** Slack (email copy optional)
 > **Time to fill out:** ~5 minutes
+> **Feeds into:** [Sprint Tracker](../vpoe/sprint-tracker.md) (R-4 section) | Next: [R-3 Readiness Checkpoint](R-3-readiness-checkpoint.md)
 
 ---
 

@@ -6,6 +6,7 @@
 > **cc:** VPoE, PO's manager
 > **Channel:** Email (paper trail required)
 > **Time to fill out:** ~10 minutes
+> **Previous:** [R-3 Readiness Checkpoint](R-3-readiness-checkpoint.md) | **Feeds into:** [Sprint Tracker](../vpoe/sprint-tracker.md) (R-2 section) | Next: [R-1 Final Status](R-1-final-status.md)
 
 ---
 

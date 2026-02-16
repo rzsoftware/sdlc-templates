@@ -6,6 +6,8 @@
 > **cc:** All Squad Leads
 > **Channel:** Email + presented at Quarterly Squad Health review
 > **Time to fill out:** ~20 minutes
+> **Fed by:** [Partial Definition Overrides](../squad-lead/partial-definition-override.md) (Jira label: `partial-definition-override`)
+> **Feeds into:** [Rolling Dashboard](rolling-dashboard.md) (quarterly totals)
 
 ---
 

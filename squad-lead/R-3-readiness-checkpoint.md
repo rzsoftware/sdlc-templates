@@ -6,6 +6,7 @@
 > **cc:** VPoE
 > **Channel:** Slack (email copy optional)
 > **Time to fill out:** ~5 minutes
+> **Previous:** [R-4 Pipeline Status](R-4-pipeline-status.md) | **Feeds into:** [Sprint Tracker](../vpoe/sprint-tracker.md) (R-3 section) | Next: [R-2 Pipeline Warning](R-2-pipeline-warning.md)
 
 ---
 
