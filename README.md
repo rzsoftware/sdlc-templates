@@ -39,6 +39,8 @@ R-1 (VPoE roll-up)      VPoE → CTO, VP Product          Cross-squad summary
 | [Two-Sprint Escalation](vpoe/two-sprint-escalation.md) | After 2 consecutive starved sprints | Formal escalation to product leadership |
 | [Starved Sprint Log](vpoe/starved-sprint-log.md) | Ongoing | Running record of every starved sprint |
 | [Quarterly Override Review](vpoe/quarterly-override-review.md) | End of quarter | Cost analysis of partial-definition overrides |
+| [Sprint Tracker](vpoe/sprint-tracker.md) | Every sprint (R-4 through close) | Single-page checklist tracking all squad deliverables |
+| [Rolling Dashboard](vpoe/rolling-dashboard.md) | Updated at sprint close | Cross-sprint squad health trends and rolling averages |
 
 ## Rules
 
@@ -52,7 +54,8 @@ R-1 (VPoE roll-up)      VPoE → CTO, VP Product          Cross-squad summary
 
 1. Add R-4, R-3, R-2, R-1 as recurring calendar events for every sprint.
 2. Bookmark this repo. Open the template, fill in the blanks, send.
-3. VPoE: maintain the [Starved Sprint Log](vpoe/starved-sprint-log.md) as a living document (Confluence or spreadsheet).
+3. VPoE: copy the [Sprint Tracker](vpoe/sprint-tracker.md) into Confluence at R-4. Check it daily during refinement week. It takes 2 minutes.
+4. VPoE: maintain the [Rolling Dashboard](vpoe/rolling-dashboard.md) and [Starved Sprint Log](vpoe/starved-sprint-log.md) as living documents (Confluence or spreadsheet). Update at every sprint close.
 
 ## Reference
 
