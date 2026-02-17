@@ -5,7 +5,7 @@
 > **To:** PO
 > **cc:** VPoE, PO's manager
 > **Channel:** Email (paper trail required)
-> **Time to fill out:** ~10 minutes
+> **Time to fill out:** ~5 minutes
 > **Previous:** [R-3 Readiness Checkpoint](R-3-readiness-checkpoint.md) | **Feeds into:** [Sprint Tracker](../vpoe/sprint-tracker.md) (R-2 section) | Next: [R-1 Final Status](R-1-final-status.md)
 
 ---
@@ -20,14 +20,17 @@ This is a scheduled R-2 Pipeline Warning. Available Engineering Ready stories co
 
 ## The Numbers
 
-| | Points |
+_Pull from your [Squad Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-squad) — Pipeline Depth gadget and Velocity Chart._
+
+| | Value |
 |---|---|
-| **Available capacity** | ___ |
-| **Target load (80-85%)** | ___ |
-| **Engineering Ready stories** | ___ |
+| **Available capacity** | ___ pts |
+| **Engineering Ready stories** | ___ pts |
 | **Gap** | **___ pts (___%)** |
 
 ## What's Not Ready
+
+_This is the critical narrative section. Jira shows which stories aren't ready; this explains what each one needs and whether it's achievable by R-1._
 
 | Jira Key | Title | Est Points | DoR Gap | What Would Need to Happen by R-1 |
 |----------|-------|-----------|---------|----------------------------------|
@@ -37,28 +40,24 @@ This is a scheduled R-2 Pipeline Warning. Available Engineering Ready stories co
 
 ## If Nothing Changes
 
-If these stories are not ready by R-1:
-
-- Sprint [NEXT SPRINT #] loads at **___% capacity** (___ of ___ points)
+- Sprint [NEXT SPRINT #] loads at **___% capacity**
 - Remaining capacity allocated to: **[tech debt / reliability / SRE work]**
-- Starved Sprint Protocol activates — gap documented in Sprint Scorecard and Starved Sprint Log
+- Starved Sprint Protocol activates — gap documented in Starved Sprint Log
 
-## Timeline
+## Notification History
 
-| Milestone | Date | Status |
-|-----------|------|--------|
-| R-4 pipeline status sent | [DATE] | Coverage was ___% |
-| R-3 readiness checkpoint sent | [DATE] | Coverage was ___% |
-| **R-2 warning (this email)** | **[DATE]** | **Coverage is ___%** |
-| R-1 final status | [DATE] | — |
-| Sprint Planning | [DATE] | — |
+| Milestone | Date Sent | Coverage at Time |
+|-----------|-----------|-----------------|
+| R-4 Pipeline Status | [DATE] | ___% |
+| R-3 Readiness Checkpoint | [DATE] | ___% |
+| **R-2 Warning (this email)** | **[DATE]** | **___%** |
 
 ## Context
 
-<!-- DELETE IF FIRST OCCURRENCE: -->
+<!-- DELETE ONE: -->
 This is the first time this squad has triggered an R-2 warning in [N] sprints.
 
-<!-- OR — USE IF REPEAT: -->
+<!-- OR -->
 This squad has triggered R-2 warnings in [N] of the last [N] sprints. Previous warnings were sent on [DATES].
 
 ---

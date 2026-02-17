@@ -4,7 +4,7 @@
 > **From:** Squad Lead
 > **To:** VPoE + all Squad Leads (verbal, in meeting)
 > **Time to fill out:** ~5 minutes
-> **Fed by:** Latest R-notification (R-4/R-3/R-2/R-1), Jira board, sprint burndown
+> **Fed by:** Latest R-notification, [Squad Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-squad), sprint burndown
 > **Feeds into:** Hill Street action items | [Sprint Tracker](../vpoe/sprint-tracker.md)
 
 ---
@@ -20,7 +20,7 @@
 | Field | Value |
 |-------|-------|
 | **Current sprint day** | D___ of D10 |
-| **Pipeline coverage** | ___% |
+| **Pipeline coverage** | ___% (from [Squad Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-squad)) |
 | **Status** | 🟢 GREEN / 🟡 AMBER / 🔴 RED |
 | **Source** | R-___ notification sent [DATE] |
 

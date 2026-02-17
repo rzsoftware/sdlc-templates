@@ -19,6 +19,8 @@
 
 This report tracks the cost of entering sprints with partially defined work. Every story that bypassed the Definition of Ready was tagged `partial-definition-override` and tracked through sprint close.
 
+_Pull override count and requestor distribution from [VPoE Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-vpoe) — Overrides This Quarter gadget. Point inflation requires comparing `Original Estimate` to `Story Points` (final) on each override story._
+
 | | Q[N] |
 |---|---|
 | **Total overrides** | ___ |
@@ -30,14 +32,17 @@ This report tracks the cost of entering sprints with partially defined work. Eve
 
 ## Override Outcomes
 
+_For each override story, compare Jira fields: `Original Estimate` vs final `Story Points`. Check for `carried-over`, `scope-add`, and `rework` labels._
+
 | Jira Key | Squad | Requestor | Original Est | Actual Pts | Scope Changed | Rework | Carried Over |
 |----------|-------|-----------|-------------|-----------|--------------|--------|-------------|
 | ___ | ___ | ___ | ___ | ___ | Y/N | Y/N | Y/N |
 | ___ | ___ | ___ | ___ | ___ | Y/N | Y/N | Y/N |
 | ___ | ___ | ___ | ___ | ___ | Y/N | Y/N | Y/N |
-| ___ | ___ | ___ | ___ | ___ | Y/N | Y/N | Y/N |
 
 ## Cost Analysis
+
+_Compare override stories vs non-override stories. Pull from Jira Sprint Reports for the quarter. This is the data that proves (or disproves) the cost of partial definition._
 
 | Metric | Override Stories | Non-Override Stories | Delta |
 |--------|----------------|-------------------|-------|
@@ -49,6 +54,8 @@ This report tracks the cost of entering sprints with partially defined work. Eve
 **Estimated waste from overrides this quarter:** ___ story points of rework that would not have occurred if stories met DoR before entering sprint.
 
 ## Requestor Distribution
+
+_Pull from Jira `Override Requestor` field on all `partial-definition-override` labeled stories this quarter._
 
 | Requestor | Title | # of Overrides | Outcomes |
 |-----------|-------|---------------|----------|
@@ -82,7 +89,7 @@ This report tracks the cost of entering sprints with partially defined work. Eve
 ## Recommendations
 
 | # | Recommendation | Rationale |
-|---|---------------|-----------|
+|---|---------------|-----------
 | 1 | ___ | ___ |
 | 2 | ___ | ___ |
 | 3 | ___ | ___ |

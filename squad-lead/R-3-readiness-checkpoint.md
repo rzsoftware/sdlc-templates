@@ -5,7 +5,7 @@
 > **To:** PO
 > **cc:** VPoE
 > **Channel:** Slack (email copy optional)
-> **Time to fill out:** ~5 minutes
+> **Time to fill out:** ~3 minutes
 > **Previous:** [R-4 Pipeline Status](R-4-pipeline-status.md) | **Feeds into:** [Sprint Tracker](../vpoe/sprint-tracker.md) (R-3 section) | Next: [R-2 Pipeline Warning](R-2-pipeline-warning.md)
 
 ---
@@ -18,60 +18,37 @@ Hi [PO NAME],
 
 R-3 checkpoint. Here's what moved since R-4 and what's still outstanding.
 
-## PTO Declarations
+## Numbers (from Jira)
 
-| | Status |
+_Pull from your [Squad Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-squad). Compare Pipeline Depth to your R-4 snapshot._
+
+| | Value |
 |---|---|
-| **Declarations received** | ___/___ squad members |
-| **Outstanding** | [NAME, NAME] |
+| **Engineering Ready stories** | ___ pts |
+| **Pipeline coverage** | ___% |
+| **Change from R-4** | +/- ___ pts |
+| **PTO declarations received** | ___/___ squad members |
+| **Sprint candidates pointed** | ___/___ |
 
-<!-- DELETE IF 100%: -->
+<!-- DELETE IF PTO IS 100%: -->
 **Action needed:** [NAMES] have not declared PTO for next sprint. Following up directly. Please confirm by R-2.
 
-## Pipeline Movement Since R-4
+## Stories Still Not Ready
 
-### Newly Ready (passed DoR since R-4)
+_This is the narrative Jira can't provide. For each story that hasn't passed DoR, explain the specific gap and whether it's moving or stalled. This is what the PO needs to act on._
 
-| Jira Key | Title | Points |
-|----------|-------|--------|
-| ___ | ___ | ___ |
-| ___ | ___ | ___ |
-
-### Still In Progress (not yet ready)
-
-| Jira Key | Title | Est Points | Specific DoR Gap | Blocker |
-|----------|-------|-----------|-----------------|---------|
+| Jira Key | Status | Est Points | Specific DoR Gap | Moving or Stalled? |
+|----------|--------|-----------|-----------------|-------------------|
 | ___ | ___ | ___ | ___ | ___ |
 | ___ | ___ | ___ | ___ | ___ |
 
-### Stalled (no movement since R-4)
-
-| Jira Key | Title | Est Points | Why Stalled |
-|----------|-------|-----------|-------------|
-| ___ | ___ | ___ | ___ |
-
-## Updated Pipeline Coverage
-
-| | Points | % of Target Load |
-|---|---|---|
-| **Ready now** | ___ | ___% |
-| **Ready + in-progress** | ___ | ___% |
-| **Change from R-4** | +/- ___ pts | |
-
-## Estimation Status
-
-| | Count |
-|---|---|
-| **Sprint candidates pointed** | ___/___ |
-| **Unpointed candidates** | [JIRA-KEY, JIRA-KEY] |
-
-## Summary
+## Assessment
 
 <!-- DELETE ONE: -->
 On track. Pipeline coverage is at ___% and improving. No concerns.
 
 <!-- OR -->
-At risk. Pipeline coverage is at ___%. The following stories need to be ready by R-1 to avoid a starved sprint: [JIRA-KEY, JIRA-KEY]. Specific gaps: [list what PO needs to do].
+At risk. Pipeline coverage is at ___%. The following stories need to be ready by R-1 to avoid a starved sprint: [JIRA-KEY, JIRA-KEY]. Specific gaps: [what PO needs to do].
 
 <!-- OR -->
 Pipeline gap widening. Coverage at ___%. If no change by R-2, will send formal Pipeline Warning.

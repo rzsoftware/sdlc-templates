@@ -9,6 +9,10 @@
 
 ---
 
+## Jira Setup
+
+_Ensure the `starved-sprint` label was applied to all stories in this sprint at Sprint Planning (see [Jira Setup Playbook](https://rzsoftware.github.io/sdlc/metrics/#jira-setup)). This makes the sprint visible on the [VPoE Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-vpoe)._
+
 ## Sprint Details
 
 | Field | Value |
@@ -20,6 +24,8 @@
 
 ## Capacity Gap
 
+_Pull capacity from Velocity Chart. Pull loaded points from Sprint Report. These are in Jira — just record the numbers here for the email._
+
 | | Points | % |
 |---|---|---|
 | **Available capacity** | ___ | 100% |
@@ -28,20 +34,20 @@
 
 ## Gap Allocation
 
-What engineering-owned work filled the remaining capacity:
+_What engineering-owned work filled the remaining capacity? Filter your sprint board by labels `tech-debt` and `sig/sre` to pull these._
 
 | Jira Key | Title | Points | Category |
 |----------|-------|--------|----------|
-| ___ | ___ | ___ | Tech debt / Reliability / Tooling / Test coverage |
 | ___ | ___ | ___ | Tech debt / Reliability / Tooling / Test coverage |
 | ___ | ___ | ___ | Tech debt / Reliability / Tooling / Test coverage |
 | **Total** | | **___** | |
 
 ## Stories That Were Not Ready
 
+_This is the narrative Jira can't provide — the specific DoR criteria each story failed and why._
+
 | Jira Key | Title | Est Points | DoR Criteria Failed |
 |----------|-------|-----------|-------------------|
-| ___ | ___ | ___ | ___ |
 | ___ | ___ | ___ | ___ |
 | ___ | ___ | ___ | ___ |
 
@@ -69,6 +75,8 @@ _Check all that apply:_
 | R-1 Final Status | [DATE] | ___% |
 
 ## Consecutive Starved Sprints
+
+_Check the [VPoE Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-vpoe) — Starved Sprint Stories gadget — to confirm consecutive count._
 
 | | |
 |---|---|

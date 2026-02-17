@@ -5,7 +5,7 @@
 > **To:** PO
 > **cc:** VPoE
 > **Channel:** Slack (email copy optional)
-> **Time to fill out:** ~5 minutes
+> **Time to fill out:** ~3 minutes
 > **Feeds into:** [Sprint Tracker](../vpoe/sprint-tracker.md) (R-4 section) | Next: [R-3 Readiness Checkpoint](R-3-readiness-checkpoint.md)
 
 ---
@@ -18,44 +18,29 @@ Hi [PO NAME],
 
 Pipeline snapshot for next sprint. No action required yet — this is the R-4 checkpoint.
 
-## Squad Capacity
+## Numbers (from Jira)
 
-| | Points |
+_Pull these from your [Squad Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-squad). Pipeline Depth gadget shows ready stories. Velocity Chart shows 3-sprint average._
+
+| | Value |
 |---|---|
-| **Projected velocity** (3-sprint avg) | ___ |
+| **Projected velocity** (3-sprint avg) | ___ pts |
 | **Known PTO next sprint** | ___ days = ___ pts reduction |
-| **Available capacity** | ___ |
-| **Target load** (80-85%) | ___ |
+| **Available capacity** | ___ pts |
+| **Engineering Ready stories** | ___ pts ([JQL: Pipeline Depth](https://rzsoftware.github.io/sdlc/metrics/#jql-backlog-depth)) |
+| **Pipeline coverage** | ___% |
 
-## Engineering Ready Stories (can enter sprint now)
+## Candidates Not Yet Ready
 
-| Jira Key | Title | Points |
-|----------|-------|--------|
-| ___ | ___ | ___ |
-| ___ | ___ | ___ |
-| ___ | ___ | ___ |
-| **Total ready** | | **___** |
+_Only list stories that are in progress toward Engineering Ready but haven't passed DoR. This is the narrative Jira can't provide — what's remaining and whether it's likely to land by R-1._
 
-## In Progress (candidates — may be ready by R-1)
-
-| Jira Key | Title | Est Points | What's Remaining |
-|----------|-------|-----------|-----------------|
+| Jira Key | Title | Est Points | What's Remaining for DoR |
+|----------|-------|-----------|--------------------------|
 | ___ | ___ | ___ | ___ |
 | ___ | ___ | ___ | ___ |
 | ___ | ___ | ___ | ___ |
-| **Total candidates** | | **~___** | |
 
-## Pipeline Coverage
-
-| | Points | % of Target Load |
-|---|---|---|
-| **Ready now** | ___ | ___% |
-| **Ready + candidates** | ___ | ___% |
-| **Gap (if candidates don't land)** | ___ | ___% |
-
-## Summary
-
-Pipeline coverage is at **___% ready / ___% including candidates** against a target load of ___ points.
+## Assessment
 
 <!-- DELETE ONE: -->
 Pipeline is healthy. No concerns at this time.

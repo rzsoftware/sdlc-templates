@@ -14,6 +14,15 @@
 
 ---
 
+## Jira Setup
+
+_Before filling this out, ensure the story has these fields set in Jira (see [Jira Setup Playbook](https://rzsoftware.github.io/sdlc/metrics/#jira-setup)):_
+
+- [ ] Label `partial-definition-override` applied
+- [ ] `Original Estimate` field set (points at time of override)
+- [ ] `Override Requestor` field set (the person requesting the override)
+- [ ] `Override Risk Estimate` field set (risk-adjusted points)
+
 ## Override Record
 
 | Field | Value |
@@ -43,8 +52,8 @@ Check all criteria. Mark PASS or FAIL for each.
 
 | Risk | Assessment |
 |------|-----------|
-| **Original estimate** | ___ points |
-| **Risk-adjusted estimate** | ___ points |
+| **Original estimate** | ___ points (set in Jira `Original Estimate` field) |
+| **Risk-adjusted estimate** | ___ points (set in Jira `Override Risk Estimate` field) |
 | **Rework likelihood** | High / Medium / Low — ___ |
 | **Scope change likelihood** | High / Medium / Low — ___ |
 | **Carry-over likelihood** | High / Medium / Low — ___ |
@@ -68,16 +77,18 @@ Example: "Without finalized AC, engineers will need to make assumptions about [X
 
 ## After Sprint Close (Squad Lead completes this section)
 
+_Jira Automation Rule 3 will prompt you when the story hits Done. Compare `Story Points` (final) to `Original Estimate` (baseline) in Jira._
+
 | Outcome | Value |
 |---------|-------|
 | **Final points spent** | ___ (original estimate was ___) |
 | **Scope changed mid-sprint?** | Yes / No — ___ |
-| **Rework required?** | Yes / No — ___ |
-| **Carried over?** | Yes / No — ___ |
+| **Rework required?** | Yes / No — if yes, apply `rework` label in Jira |
+| **Carried over?** | Yes / No — if yes, `carried-over` label applied automatically |
 | **Impact on other stories** | ___ |
 
 ---
 
 _Jira label applied: `partial-definition-override`_
 
-_This override is tracked in the [Quarterly Override Review](../vpoe/quarterly-override-review.md)._
+_This override is tracked in the [Quarterly Override Review](../vpoe/quarterly-override-review.md). Jira [VPoE Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-vpoe) shows all overrides automatically._

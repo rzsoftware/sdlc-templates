@@ -5,7 +5,7 @@
 > **To:** CTO, VP Product
 > **cc:** All Squad Leads
 > **Channel:** Email (paper trail)
-> **Time to fill out:** ~10 minutes (compile from Squad Lead R-1 reports)
+> **Time to fill out:** ~5 minutes (compile from Squad Lead R-1 reports + [VPoE Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-vpoe))
 > **Fed by:** [Sprint Tracker](sprint-tracker.md) + Squad Lead [R-1 Final Status](../squad-lead/R-1-final-status.md) reports
 > **Feeds into:** [Rolling Dashboard](rolling-dashboard.md)
 
@@ -17,20 +17,13 @@
 
 ## Squad Status Overview
 
+_Pull coverage numbers from the [VPoE Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-vpoe) — Pipeline Depth gadget. Status comes from each Squad Lead's R-1 report._
+
 | Squad | Status | Capacity | Loadable | Coverage | Notes |
 |-------|--------|----------|----------|----------|-------|
 | [Squad A] | GREEN / AMBER / RED | ___ pts | ___ pts | ___% | ___ |
 | [Squad B] | GREEN / AMBER / RED | ___ pts | ___ pts | ___% | ___ |
 | [Squad C] | GREEN / AMBER / RED | ___ pts | ___ pts | ___% | ___ |
-| [Squad D] | GREEN / AMBER / RED | ___ pts | ___ pts | ___% | ___ |
-
-**Totals:**
-
-| | Points |
-|---|---|
-| **Total engineering capacity** | ___ |
-| **Total product work loadable** | ___ |
-| **Organization-wide coverage** | ___% |
 
 ## Squads at GREEN
 
@@ -38,18 +31,13 @@
 
 _All gates pass. No action needed._
 
-| Squad | Highlight |
-|-------|-----------|
-| [Squad A] | ___ |
-| [Squad D] | ___ |
-
 ## Squads at AMBER
 
 <!-- DELETE IF NONE: -->
 
 | Squad | Coverage | Issue | Resolution Path |
 |-------|----------|-------|----------------|
-| [Squad B] | ___% | ___ | ___ |
+| ___ | ___% | ___ | ___ |
 
 ## Squads at RED (Starved Sprint Protocol)
 
@@ -57,18 +45,21 @@ _All gates pass. No action needed._
 
 | Squad | Coverage | Gap (pts) | R-2 Warning Sent | Consecutive Starved Sprints |
 |-------|----------|-----------|------------------|---------------------------|
-| [Squad C] | ___% | ___ | [DATE] | ___ |
+| ___ | ___% | ___ | [DATE] | ___ |
 
 **Details for RED squads:**
 
-**[Squad C]:**
+_This is the narrative section — root causes, notification history, and how engineering is filling the gap. This context is what the dashboard can't provide._
+
+**[Squad Name]:**
 - PO notified at: R-4 ([DATE]), R-3 ([DATE]), R-2 ([DATE])
-- Stories not ready: [JIRA-KEY], [JIRA-KEY], [JIRA-KEY]
 - Root cause: ___
 - Gap filled with: [tech debt / reliability / etc.]
 - Starved Sprint Log entry: [#]
 
 ## Quarterly Context
+
+_Pull override count from [VPoE Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-vpoe) — Overrides This Quarter gadget._
 
 | | This Sprint | Quarter to Date |
 |---|---|---|
@@ -88,7 +79,6 @@ _No action required. All squads loading at healthy capacity._
 | # | Action | Owner | By When |
 |---|--------|-------|---------|
 | 1 | ___ | ___ | ___ |
-| 2 | ___ | ___ | ___ |
 
 ---
 

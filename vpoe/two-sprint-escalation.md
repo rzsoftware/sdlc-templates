@@ -20,6 +20,8 @@ Hi [VP PRODUCT / PO'S MANAGER NAME],
 
 ## The Data
 
+_Pull from Jira Sprint Report for each sprint. Also visible on [VPoE Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-vpoe) — Starved Sprint Stories gadget._
+
 | | Sprint [#] | Sprint [#] |
 |---|---|---|
 | **Available capacity** | ___ pts | ___ pts |
@@ -51,6 +53,8 @@ Engineering flagged pipeline risk through the standard notification cadence:
 
 ## Stories That Were Not Ready
 
+_Pull from Squad Lead's Scorecard Entries. This narrative context — specific DoR failures — is what makes the escalation actionable._
+
 | Jira Key | Title | Est Points | DoR Criteria Failed | Sprint |
 |----------|-------|-----------|-------------------|--------|
 | ___ | ___ | ___ | ___ | ___ |
@@ -72,8 +76,10 @@ _Check all that apply:_
 
 ## How Engineering Filled the Gap
 
+_Filter Jira sprint board by labels `tech-debt` and `sig/sre` for these numbers._
+
 | Category | Sprint [#] | Sprint [#] |
-|----------|-----------|-----------|
+|----------|-----------|-----------
 | Tech debt | ___ pts | ___ pts |
 | Reliability / SRE | ___ pts | ___ pts |
 | Test coverage | ___ pts | ___ pts |

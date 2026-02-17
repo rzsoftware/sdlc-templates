@@ -5,7 +5,7 @@
 > **To:** PO
 > **cc:** VPoE
 > **Channel:** Email (paper trail)
-> **Time to fill out:** ~5 minutes
+> **Time to fill out:** ~3 minutes
 > **Previous:** [R-2 Pipeline Warning](R-2-pipeline-warning.md) | **Feeds into:** [Sprint Tracker](../vpoe/sprint-tracker.md) (R-1 section) → [Cross-Squad Summary](../vpoe/R-1-cross-squad-summary.md)
 
 ---
@@ -20,32 +20,17 @@ Final pipeline status before tomorrow's Sprint Planning. No surprises — this i
 
 ## Final Numbers
 
-| | Points |
+_Pull from your [Squad Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-squad)._
+
+| | Value |
 |---|---|
-| **Available capacity** | ___ |
-| **Target load (80-85%)** | ___ |
-| **Engineering Ready stories** | ___ |
-| **Loadable** | **___% of capacity** |
-
-## Sprint Commitment (Engineering Ready — will enter sprint)
-
-| Jira Key | Title | Points | Priority |
-|----------|-------|--------|----------|
-| ___ | ___ | ___ | Roadmap |
-| ___ | ___ | ___ | Roadmap |
-| ___ | ___ | ___ | Enhancement |
-| ___ | ___ | ___ | Bug |
-| **Total** | | **___** | |
-
-## Allocation Check (70/20/10)
-
-| Category | Points | % | Target |
-|----------|--------|---|--------|
-| Roadmap | ___ | ___% | 70% |
-| Enhancements | ___ | ___% | 20% |
-| Bugs / Alarms | ___ | ___% | 10% |
+| **Available capacity** | ___ pts |
+| **Engineering Ready stories** | ___ pts |
+| **Coverage** | **___%** |
 
 ## Pre-Sprint Gate Checklist
+
+_This is the manual verification that Jira automation can't do. Check each gate._
 
 | Gate | Status |
 |------|--------|
@@ -54,6 +39,16 @@ Final pipeline status before tomorrow's Sprint Planning. No surprises — this i
 | DoR passed (100%) | YES / NO — [details if no] |
 | Capacity loaded 80-85% | YES / NO — actual: ___% |
 | Sprint goal defined | YES / NO |
+
+## Allocation Check
+
+_Pull from your [Squad Dashboard](https://rzsoftware.github.io/sdlc/metrics/#dashboard-squad) — 70/20/10 gadget. Verify balance before sprint lock._
+
+| Category | Points | % | Target |
+|----------|--------|---|--------|
+| Roadmap | ___ | ___% | 70% |
+| Enhancements | ___ | ___% | 20% |
+| Bugs / Alarms | ___ | ___% | 10% |
 
 ## Sprint Status
 
